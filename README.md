@@ -1,7 +1,8 @@
-# PandaTex: A very simple tool for transforming Pandas DataFrames into .tex tables documents
+# PandaTex
 
 ## What is PandaTex?
 
+PandaTex is a package to transform Pandas data tables into .tex files
 
 ## Getting started
 
