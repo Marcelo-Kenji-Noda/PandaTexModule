@@ -5,10 +5,10 @@ with open("README.md","r") as fh:
 
 setup(
     name='PandaTex',
-    version='0.0.3',
+    version='0.0.6',
     description='Say hello!',
-    py_modules= ["helloworld"],
-    package_dir={'':'src'},
+    py_modules= ["pandatex","utils/_texbasics","utils/_validate"],
+    package_dir={'':'src/pandatex'},
     install_requires=["pandas","numpy"],
     classifiers=[
         "Programming Language :: Python :: 3.7"],

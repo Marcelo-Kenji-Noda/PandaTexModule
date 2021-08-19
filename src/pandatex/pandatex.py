@@ -83,7 +83,7 @@ class TexTable:
     """
     Anotation
     """
-    def __init__(self,name= "", filename="Default",label = None, caption = None, dataframe = None):
+    def __init__(self,name= "", filename="Default",label = " ", caption = " ", dataframe = None):
         self.name = name
         self.filename = filename+".tex"
         self.label = label
